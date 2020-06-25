@@ -2,7 +2,7 @@
   "name": "webdriverio-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "login.js",
   "scripts": {
     "test": "npx wdio wdio.conf.js"
   },
@@ -17,5 +17,8 @@
     "@wdio/sync": "^6.1.14",
     "chromedriver": "^83.0.0",
     "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }
