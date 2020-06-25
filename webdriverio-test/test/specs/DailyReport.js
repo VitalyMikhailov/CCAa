@@ -40,12 +40,12 @@ describe('EDIT PROFILE', () => {
         // expect(elem.isSelected()).true;
     });
 
-    it('should check drop down "What is your morale?"', function () {
-        const elem = $("//select[@name='morale']").selectByVisibleText("8");
-        browser.pause(2000);
-        const res = $("//select[@name='morale']").getValue();
-        expect(res).eq("8");
-    });
+    // it('should check drop down "What is your morale?"', function () {
+    //     const elem = $("//select[@name='morale']").selectByVisibleText("8");
+    //     browser.pause(2000);
+    //     const res = $("//select[@name='morale']").getValue();
+    //     expect(res).eq("8");
+    // });
 
 
 })
