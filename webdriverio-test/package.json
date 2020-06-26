@@ -2,7 +2,7 @@
   "name": "webdriverio-test",
   "version": "1.0.0",
   "description": "",
-  "main": "login.js",
+  "main": "USPSsite.js",
   "scripts": {
     "test": "npx wdio wdio.conf.js"
   },

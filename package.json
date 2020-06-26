@@ -1,0 +1,29 @@
+{
+  "name": "SimpleCounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalyMikhailov/CCAa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalyMikhailov/CCAa/issues"
+  },
+  "homepage": "https://github.com/VitalyMikhailov/CCAa#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.22",
+    "@wdio/local-runner": "^6.1.22",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
